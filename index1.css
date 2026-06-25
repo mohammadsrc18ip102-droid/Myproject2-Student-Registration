@@ -1,0 +1,75 @@
+body {
+    padding: 0;
+    margin: 0;
+
+}
+
+.heading {
+    width: 100%;
+
+    align-items: center;
+height: 1px;
+    margin-top: 100px;
+
+}
+
+
+
+.header {
+
+
+    width: 60%;
+    background-color: oklab(96.792% 0.00897 -0.00009 / 0.37);
+    border-radius: 10px;
+    box-shadow: 4px 2px 3px 4px;
+   
+
+}
+
+.header label {
+    width: 49%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    border-radius: 5px;
+   
+}
+
+.header .fr {
+    width: 95%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+
+}
+
+
+
+.header div input {
+    display: flex;
+    width: 48%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: lch(100% 0.01 296.81);
+    font-size: 20px;
+
+}
+
+.header .sbmit {
+
+    width: 200px;
+    padding: 20px;
+
+}
+
+.header .sbmit input {
+    background-color: blue;
+
+}
